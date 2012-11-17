@@ -1,9 +1,3 @@
 #!/usr/bin/env node
-var fs = require('fs');
-var seaport = require('seaport');
-var ports = seaport.connect(process.argv[2]);
-
-var airport = require('../../');
-var air = airport(ports);
-
-air(function () {}).listen('beep');
+var air = require('../../')(process.argv[2]);
+air(function() {}).listen('beep');
