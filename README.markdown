@@ -47,7 +47,7 @@ setInterval(function () {
 First start a seaport server:
 
 ```
-$ seaport 9090
+$ seaport listen 9090
 seaport listening on :9090
 ```
 
