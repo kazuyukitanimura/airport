@@ -9,7 +9,7 @@ Provide an
 Instead of connecting and listening on hosts and ports, you can .connect() and
 .listen() on service semvers.
 
-[![build status](https://secure.travis-ci.org/substack/airport.png)](http://travis-ci.org/substack/airport)
+[![build status](https://secure.travis-ci.org/kazuyukitanimura/airport.png)](http://travis-ci.org/kazuyukitanimura/airport)
 
 ![airport](http://substack.net/images/airport.png)
 
